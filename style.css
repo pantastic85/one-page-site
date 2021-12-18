@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px dashed salmon; */
+}
+
+:root {
+  --main-color: rgb(90, 0, 190);
+}
+
+.mw-1000 {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-colum {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-auto {
+  flex: auto;
+}
+
+header {
+  background-color: var(--main-color);
+  color: white;
+  padding-right: 1em;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav > ul > li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0.5em 1em;
+}
+
+nav > ul > li:hover {
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 600px) {
+}
